@@ -37,6 +37,9 @@ __BUG?__
 * `mvn install`
 * `mvn -PnativeTest test`
 
+## JAXB repo reference
+[Here](https://github.com/eclipse-ee4j/jaxb-ri/issues/1673) the related issue
+
 
 
 
