@@ -29,10 +29,9 @@ org.example.HandleConn does not have a no-arg default constructor.
        [...]
 
 ```
-
-__BUG?__
-
 ## Replication steps
+
+_**This is solved! Read below.**_ 
 
 * `mvn install`
 * `mvn -PnativeTest test`
