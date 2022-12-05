@@ -1,0 +1,8 @@
+[
+  {
+    "name": "org.example.HandleConn",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true
+  }
+]
