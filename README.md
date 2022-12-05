@@ -41,7 +41,21 @@ __BUG?__
 [Here](https://github.com/eclipse-ee4j/jaxb-ri/issues/1673) the related issue
 
 
+## Solution
 
+Found the solution on [GraalVM reachability metadata repo](https://github.com/oracle/graalvm-reachability-metadata) by reading their tests for JAXB.
+
+The class being parsed requires reflection hints in `META-INF\native-image\reflect-config.json`
+```json
+[
+    {
+        "name": "org.example.HandleConn",
+        "allDeclaredConstructors": true,
+        "allDeclaredMethods": true,
+        "allDeclaredFields": true
+     }
+]
+```
 
 
 
